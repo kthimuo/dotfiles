@@ -8,7 +8,7 @@ set virtualedit=onemore
 set filetype=python
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 "colorscheme molokai
-colorscheme garden
+"colorscheme garden
 "colorscheme darcula
 inoremap { {}<LEFT>
 inoremap ( ()<LEFT>
@@ -25,6 +25,9 @@ if &compatible
   set nocompatible
 endif
 set runtimepath+=~/.vim/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=/root/.cache/dein/repos/github.com/Shougo/dein.vim
+
+
 
 call dein#begin(expand('~/.vim/dein'))
 
