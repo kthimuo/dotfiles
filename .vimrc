@@ -11,6 +11,7 @@ nmap <Esc><Esc> :nohlsearch<CR><Esc>
 "colorscheme garden
 "colorscheme messy
 "colorscheme darcula
+colorscheme kuroi
 inoremap { {}<LEFT>
 inoremap ( ()<LEFT>
 inoremap [ []<LEFT>
@@ -26,7 +27,7 @@ if &compatible
   set nocompatible
 endif
 set runtimepath+=~/.vim/dein/repos/github.com/Shougo/dein.vim
-set runtimepath+=/root/.cache/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
 
 
 
